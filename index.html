@@ -1,525 +1,326 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>David Imbachi — Python Developer</title>
-<link rel="stylesheet" href="styles.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Epilogue:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Fernando Montilla | Portfolio</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+    <!-- Devicon -->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 </head>
 <body>
 
-<header class="header" id="header">
-  <div class="logo">David Imbachi</div>
-  <nav id="nav">
-    <a href="#about" class="nav-a">Sobre mí</a>
-    <a href="#skills" class="nav-a">Skills</a>
-    <a href="#projects" class="nav-a">Proyectos</a>
-    <a href="#certs" class="nav-a">Certificaciones</a>
-    <a href="#cv" class="nav-a">Currículum</a>
-    <a href="#contact" class="nav-a">Contacto</a>
-  </nav>
-  <button class="menu-btn" id="menuBtn" aria-label="Menú">
-    <span></span><span></span>
-  </button>
-</header>
-
-<!-- HERO -->
-<section class="hero" id="home">
-  <div class="hero-left">
-    <div class="hero-tag reveal">Python Developer · Analista ADSO · SENA</div>
-    <h1 class="hero-name reveal">
-      Cristian David<br><em>ImbachiCampo</em>
-    </h1>
-    <p class="hero-sub reveal">
-      Desarrollo backend con <strong>Python y Django</strong>.<br>
-      Busco prácticas donde crecer y aportar valor real.
-    </p>
-    <div class="hero-cta reveal">
-      <a href="HojaDeVida_David_Imbachi Campo.docx" class="btn-dark">Descargar CV <i class="fas fa-arrow-down"></i></a>
-      <a href="#contact" class="btn-line">Hablemos</a>
-    </div>
-  </div>
-
-  <div class="hero-right reveal">
-    <div class="avatar-frame">
-      <img src="img/logo.jpg.jpeg" alt="David Imbachi" class="avatar">
-      <div class="availability">
-        <span class="dot-green"></span> Disponible para prácticas
-      </div>
-    </div>
-    <div class="side-stats">
-      <div class="side-stat">
-        <span class="s-num">+2</span>
-        <span class="s-label">Años<br>formándome</span>
-      </div>
-      <div class="divider-v"></div>
-      <div class="side-stat">
-        <span class="s-num">3</span>
-        <span class="s-label">Proyectos<br>realizados</span>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ABOUT -->
-<section id="about" class="section bg-cream">
-  <div class="container">
-    <div class="sec-header reveal">
-      <span class="sec-num">01</span>
-      <h2 class="sec-title">Sobre mí</h2>
-    </div>
-    <div class="about-grid">
-      <div class="about-text reveal">
-        <p>
-          Soy estudiante de <strong>Análisis y Desarrollo de Software (ADSO)</strong> en el SENA,
-          un programa tecnólogo enfocado en el ciclo completo del desarrollo: desde el análisis
-          de requerimientos hasta la implementación y pruebas de software.
-        </p>
-        <p>
-          En el área técnica manejo <strong>Python como lenguaje principal</strong> y <strong>Django</strong>
-          como framework backend, con el que construyo aplicaciones web, sistemas de autenticación
-          y APIs REST. Complemento con SQL para bases de datos relacionales, Git para control
-          de versiones y HTML/CSS para integrar vistas. Mi entorno de trabajo es <strong>PyCharm</strong>.
-        </p>
-        <p>
-          En equipo me desenvuelvo bien — en el proyecto <strong>Agropecuario.NET</strong> trabajé
-          junto a compañeros coordinando tareas, usando Git para no pisarnos el código y
-          comunicando avances constantemente. Me gusta que el equipo funcione, no solo yo.
-        </p>
-        <p>
-          Tengo muchas ganas de seguir creciendo. Quiero profundizar en arquitectura backend,
-          buenas prácticas con Django REST Framework y eventualmente aprender sobre despliegue
-          en la nube. Cada proyecto que hago me deja algo nuevo y eso es lo que me motiva.
-        </p>
-      </div>
-      <div class="about-cards reveal">
-        <div class="acard">
-          <i class="fas fa-graduation-cap"></i>
-          <h4>Formación ADSO — SENA</h4>
-          <p>Programa tecnológico enfocado en análisis, diseño, desarrollo y pruebas de software con proyectos reales.</p>
+    <!-- NAVBAR -->
+    <header class="header">
+        <div class="logo">
+            <span>JM</span>
         </div>
-        <div class="acard">
-          <i class="fas fa-users"></i>
-          <h4>Trabajo en equipo real</h4>
-          <p>Experiencia colaborando en proyectos con Git, coordinación de tareas y comunicación constante entre el equipo.</p>
+
+        <nav class="navbar">
+            <a href="#inicio">Inicio</a>
+            <a href="#about">Sobre mí</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experiencia</a>
+            <a href="#projects">Proyectos</a>
+            <a href="#certifications">Certificaciones</a>
+            <a href="#contact">Contacto</a>
+        </nav>
+
+        <div class="menu-btn">
+            <i class="fa-solid fa-bars"></i>
         </div>
-        <div class="acard">
-          <i class="fas fa-rocket"></i>
-          <h4>Siempre aprendiendo</h4>
-          <p>Quiero profundizar en Django REST Framework, arquitectura backend limpia y despliegue en la nube. Cada proyecto me deja algo nuevo.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+    </header>
 
-<!-- SKILLS -->
-<section id="skills" class="section">
-  <div class="container">
-    <div class="sec-header reveal">
-      <span class="sec-num">02</span>
-      <h2 class="sec-title">Skills</h2>
-    </div>
-    <div class="skills-wrap">
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <p class="subtitle">Hola, soy</p>
 
-      <div class="skills-main reveal">
-        <p class="skills-intro">Stack principal — tecnologías con las que trabajo a diario:</p>
+            <h1>
+                Juan Fernando <span>Montilla</span>
+            </h1>
 
-        <div class="skill-row main-skill">
-          <div class="sk-left">
-            <i class="fab fa-python sk-icon"></i>
-            <div class="sk-info">
-              <strong>Python</strong>
-              <span>Lenguaje principal</span>
+            <h2>
+                Backend Developer | ADSO
+            </h2>
+
+            <p class="hero-description">
+                Tecnólogo en Análisis y Desarrollo de Software con experiencia en
+                desarrollo web backend usando PHP, Python, MySQL, Bootstrap y Git.
+                Apasionado por crear soluciones eficientes y escalables.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="HojaDeVida_JuanFernandoMontilla_2026.docx" class="btn-primary">
+                    Descargar CV
+                </a>
+
+                <a href="https://github.com/JuanMon1234"
+                   target="_blank"
+                   class="btn-secondary">
+                    <i class="fab fa-github"></i>
+                    GitHub
+                </a>
+
+                <a href="https://www.linkedin.com/in/juan-montilla-45aa5a193/"
+                   target="_blank"
+                   class="btn-linkedin">
+                    <i class="fab fa-linkedin"></i>
+                    LinkedIn
+                </a>
             </div>
-          </div>
-          <div class="sk-bar"><div class="sk-fill" style="--w:85%"></div></div>
-          <span class="sk-pct">85%</span>
         </div>
 
-        <div class="skill-row main-skill">
-          <div class="sk-left">
-            <span class="sk-icon dj-icon">Dj</span>
-            <div class="sk-info">
-              <strong>Django</strong>
-              <span>Framework principal</span>
+        <div class="hero-image">
+            <img src="img/profile.png" alt="Juan Montilla">
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about section" id="about">
+        <div class="section-title">
+            <h2>Sobre mí</h2>
+            <span></span>
+        </div>
+
+        <div class="about-content">
+            <p>
+                Soy Tecnólogo en Análisis y Desarrollo de Software (ADSO) y estudiante
+                de Contaduría Pública. Cuento con más de 8 años de experiencia en
+                atención al cliente, ventas, retail y caja, combinando habilidades
+                técnicas con excelentes competencias interpersonales.
+            </p>
+
+            <p>
+                Me especializo en desarrollo backend con PHP y Python, diseño de
+                bases de datos MySQL, interfaces responsivas con Bootstrap y
+                control de versiones con Git/GitHub.
+            </p>
+
+            <div class="about-cards">
+                <div class="about-card">
+                    <h3>8+</h3>
+                    <p>Años de experiencia laboral</p>
+                </div>
+
+                <div class="about-card">
+                    <h3>10+</h3>
+                    <p>Tecnologías aprendidas</p>
+                </div>
+
+                <div class="about-card">
+                    <h3>3+</h3>
+                    <p>Proyectos principales</p>
+                </div>
             </div>
-          </div>
-          <div class="sk-bar"><div class="sk-fill" style="--w:78%"></div></div>
-          <span class="sk-pct">78%</span>
         </div>
-        <div class="skill-row">
-          <div class="sk-left">
-            <i class="fa-solid fa-database sk-icon sec"></i>
-            <div class="sk-info">
-              <strong>MySQL & MongoDB</strong>
-              <span>Consultas SQL, diseño de bases de datos y operaciones CRUD</span>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills section" id="skills">
+        <div class="section-title">
+            <h2>Skills</h2>
+            <span></span>
+        </div>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+                <i class="devicon-html5-plain colored"></i>
+                <h4>HTML5</h4>
             </div>
-          </div>
-          <div class="sk-bar"><div class="sk-fill sec" style="--w:65%"></div></div>
-          <span class="sk-pct">75%</span>
-        </div>
 
-        <div class="skill-row">
-          <div class="sk-left">
-            <i class="fab fa-git-alt sk-icon sec"></i>
-            <div class="sk-info">
-              <strong>Git & GitHub</strong>
-              <span>Control de versiones</span>
+            <div class="skill-card">
+                <i class="devicon-css3-plain colored"></i>
+                <h4>CSS3</h4>
             </div>
-          </div>
-          <div class="sk-bar"><div class="sk-fill sec" style="--w:75%"></div></div>
-          <span class="sk-pct">75%</span>
-        </div>
 
-        <div class="skill-row">
-          <div class="sk-left">
-            <i class="fab fa-html5 sk-icon sec"></i>
-            <div class="sk-info">
-              <strong>HTML / CSS</strong>
-              <span>Integración de vistas Django</span>
+            <div class="skill-card">
+                <i class="devicon-javascript-plain colored"></i>
+                <h4>JavaScript</h4>
             </div>
-          </div>
-          <div class="sk-bar"><div class="sk-fill sec" style="--w:65%"></div></div>
-          <span class="sk-pct">65%</span>
-        </div>
-      </div>
 
-      <div class="tools-panel reveal">
-        <h3>Herramientas</h3>
-        <div class="tool-row">
-          <i class="fas fa-code"></i>
-          <div>
-            <strong>PyCharm</strong>
-            <span>IDE principal · entornos virtuales</span>
-          </div>
-        </div>
-        <div class="tool-row">
-          <i class="fab fa-github"></i>
-          <div>
-            <strong>GitHub</strong>
-            <span>Repositorios y pull requests</span>
-          </div>
-        </div>
-        <div class="tool-row">
-          <i class="fas fa-terminal"></i>
-          <div>
-            <strong>Terminal / Bash</strong>
-            <span>Virtualenvs, scripts, pip</span>
-          </div>
-        </div>
-        <div class="tool-row">
-          <i class="fas fa-paper-plane"></i>
-          <div>
-            <strong>Postman</strong>
-            <span>Testing de APIs REST</span>
-          </div>
-        </div>
-        <div class="tools-note">
-          <i class="fas fa-info-circle"></i>
-          Prefiero profundidad sobre amplitud. No listo tecnologías que apenas conozco.
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<!-- PROJECTS -->
-<section id="projects" class="section bg-cream">
-  <div class="container">
-    <div class="sec-header reveal">
-      <span class="sec-num">03</span>
-      <h2 class="sec-title">Proyectos</h2>
-    </div>
-
-    <!-- PROYECTO ESTRELLA -->
-    <div class="proj-featured reveal">
-      <div class="proj-badge">Proyecto principal · Agropecuario.NET</div>
-
-      <!-- INFO HEADER -->
-      <div class="proj-header-row">
-        <div>
-          <div class="proj-tags">
-            <span>Python</span><span>Django</span><span>HTML/CSS</span><span>Autenticación</span><span>Calendario</span>
-          </div>
-          <h3 class="proj-title">Sistema de Programación de Instructores y Fichas</h3>
-          <p class="proj-desc">
-            Aplicación web llamada <strong>Agropecuario.NET</strong>, desarrollada para el SENA, que automatiza
-            la programación y asignación de instructores a fichas de formación. El sistema maneja
-            dos roles: <strong>Dinamizador</strong> (administrador que programa y gestiona fichas) e
-            <strong>Instructor</strong> (visualiza su calendario, controla sus horas mensuales y registra actividades).
-            Reemplazó el proceso manual de cruce de horarios, eliminando conflictos de asignación.
-          </p>
-          <div class="proj-rol">
-            <i class="fas fa-code"></i>
-            <div>
-              <strong>Mi rol — Desarrollo backend completo</strong>
-              <span>Fui pieza fundamental del equipo: desarrollé todo el backend con Django, la lógica de roles y permisos, el sistema de autenticación, la gestión de programación por calendario y el control de horas por instructor.</span>
+            <div class="skill-card">
+                <i class="devicon-bootstrap-plain colored"></i>
+                <h4>Bootstrap</h4>
             </div>
-          </div>
-        </div>
-        <div class="proj-actions">
-          <a href="https://github.com/davidimbachi" target="_blank" class="btn-dark">
-            <i class="fab fa-github"></i> Ver en GitHub
-          </a>
-        </div>
-      </div>
 
-      <!-- SCREENSHOTS GALLERY -->
-      <div class="proj-gallery">
-        <div class="proj-gallery-main">
-          <div class="gallery-label">Vista Instructor — Mi Programación</div>
-          <div class="proj-img-wrap">
-            <img src="img/como lo ve y lo que puede hacer el instructor.PNG" alt="Vista del instructor - calendario de programación">
-            <div class="proj-img-overlay">
-              <span>Calendario mensual · Control de horas (114h/180h)</span>
+            <div class="skill-card">
+                <i class="devicon-php-plain colored"></i>
+                <h4>PHP</h4>
             </div>
-          </div>
-        </div>
-        <div class="proj-gallery-side">
-          <div class="proj-img-small">
-            <div class="gallery-label">Login — Agropecuario.NET</div>
-            <div class="proj-img-wrap">
-              <img src="img/login.PNG" alt="Pantalla de login">
-              <div class="proj-img-overlay">
-                <span>Autenticación con roles</span>
-              </div>
+
+            <div class="skill-card">
+                <i class="devicon-python-plain colored"></i>
+                <h4>Python</h4>
             </div>
-          </div>
-          <div class="proj-img-small">
-            <div class="gallery-label">Dinamizador — Programar Fichas</div>
-            <div class="proj-img-wrap">
-              <img src="img/programar y lo que hace el instructor.PNG" alt="Panel del dinamizador para programar instructores">
-              <div class="proj-img-overlay">
-                <span>Programación por calendario · Selector de instructores</span>
-              </div>
+
+            <div class="skill-card">
+                <i class="devicon-django-plain"></i>
+                <h4>Django</h4>
             </div>
-          </div>
-        </div>
-      </div>
 
-    </div>
-
-    <!-- PROYECTO 2 -->
-    <div class="proj-secondary reveal">
-      <div class="proj-sec-inner">
-        <div class="proj-sec-left">
-          <div class="proj-tags">
-            <span>Python</span><span>Django</span><span>MySQL</span>
-          </div>
-          <h3 class="proj-title sm">Plataforma de Cursos Complementarios SENA</h3>
-          <p class="proj-desc sm">
-            Sistema web para la creación y gestión de cursos complementarios dentro del SENA.
-            Permite registrar cursos, inscribir aprendices y hacer seguimiento al avance formativo.
-          </p>
-          <div class="proj-rol sm">
-            <i class="fas fa-users"></i>
-            <div>
-              <strong>Mi rol — Colaborador</strong>
-              <span>Participé en el desarrollo de módulos específicos del sistema trabajando en equipo.</span>
+            <div class="skill-card">
+                <i class="devicon-mysql-plain colored"></i>
+                <h4>MySQL</h4>
             </div>
-          </div>
-        </div>
-        <div class="proj-sec-right">
-          <a href="https://github.com/davidimbachi" target="_blank" class="btn-line">
-            <i class="fab fa-github"></i> GitHub
-          </a>
-        </div>
-      </div>
-    </div>
 
-    <!-- NOTA GITHUB -->
-    <div class="proj-github-note reveal">
-      <i class="fab fa-github"></i>
-      <div>
-        <strong>Código disponible en GitHub</strong>
-        <span>Puedes revisar la estructura, commits y documentación de cada proyecto en
-          <a href="https://github.com/davidimbachi" target="_blank">github.com/davidimbachi</a>
-        </span>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<!-- CERTIFICACIONES -->
-<section id="certs" class="section">
-  <div class="container">
-    <div class="sec-header reveal">
-      <span class="sec-num">04</span>
-      <h2 class="sec-title">Certificaciones</h2>
-    </div>
-
-    <p class="certs-intro reveal">
-      Certificados de <strong>Competencia Laboral</strong> emitidos por el SENA —
-      con validez nacional y respaldo del Ministerio de Trabajo de Colombia.
-    </p>
-
-    <div class="certs-grid">
-
-      <!-- CERT 1 — Nivel Avanzado -->
-      <div class="cert-card reveal">
-        <div class="cert-top">
-          <div class="cert-logo">
-            <i class="fas fa-award"></i>
-          </div>
-          <div class="cert-level advanced">Nivel Avanzado</div>
-        </div>
-        <div class="cert-body">
-          <div class="cert-issuer">SENA · Competencia Laboral</div>
-          <h3 class="cert-title">Diseñar la solución de software de acuerdo con procedimientos y requisitos técnicos</h3>
-          <div class="cert-meta">
-            <span><i class="fas fa-calendar-check"></i> Certificado: 20 Oct 2025</span>
-            <span><i class="fas fa-signature"></i> Firmado: 21 Oct 2025</span>
-          </div>
-          <div class="cert-relevance">
-            <i class="fas fa-lightbulb"></i>
-            Relevante para roles de análisis, diseño y desarrollo de software
-          </div>
-        </div>
-        <div class="cert-footer">
-          <span class="cert-id">Reg. 922100220501095252CC1061717666C</span>
-        </div>
-      </div>
-
-      <!-- CERT 2 — Nivel Intermedio -->
-      <div class="cert-card reveal">
-        <div class="cert-top">
-          <div class="cert-logo">
-            <i class="fas fa-laptop-code"></i>
-          </div>
-          <div class="cert-level intermediate">Nivel Intermedio</div>
-        </div>
-        <div class="cert-body">
-          <div class="cert-issuer">SENA · Competencia Laboral</div>
-          <h3 class="cert-title">Operar herramientas informáticas y digitales de acuerdo con protocolos y manuales técnicos</h3>
-          <div class="cert-meta">
-            <span><i class="fas fa-calendar-check"></i> Certificado: 20 Oct 2025</span>
-            <span><i class="fas fa-signature"></i> Firmado: 21 Oct 2025</span>
-          </div>
-          <div class="cert-relevance">
-            <i class="fas fa-lightbulb"></i>
-            Acredita manejo profesional de herramientas tecnológicas y entornos digitales
-          </div>
-        </div>
-        <div class="cert-footer">
-          <span class="cert-id">Reg. 922100220501121251CC1061717666C</span>
-        </div>
-      </div>
-
-    </div>
-
-    <!-- Nota SENA -->
-    <div class="cert-sena-note reveal">
-      <div class="cert-sena-left">
-        <i class="fas fa-shield-halved"></i>
-      </div>
-      <div>
-        <strong>¿Por qué importan estos certificados?</strong>
-        <span>Los Certificados de Competencia Laboral del SENA son emitidos por el organismo nacional de formación profesional de Colombia y tienen validez ante el Ministerio de Trabajo. Son equivalentes a certificaciones técnicas internacionales en contexto laboral colombiano.</span>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<!-- CV -->
-<section id="cv" class="section bg-dark">
-  <div class="container">
-    <div class="sec-header reveal">
-      <span class="sec-num light">05</span>
-      <h2 class="sec-title light">Currículum</h2>
-    </div>
-    <div class="cv-grid">
-      <div class="cv-mockup reveal">
-        <div class="cv-card">
-          <div class="cv-card-top">
-            <div class="cv-initials">DI</div>
-            <div>
-              <strong>David Imbachi</strong>
-              <span>Python Developer · ADSO SENA</span>
+            <div class="skill-card">
+                <i class="devicon-git-plain colored"></i>
+                <h4>Git</h4>
             </div>
-          </div>
-          <div class="cv-body">
-            <div class="cv-label">Formación</div>
-            <div class="cv-line" style="width:80%"></div>
-            <div class="cv-line" style="width:55%"></div>
-            <div class="cv-label mt">Stack técnico</div>
-            <div class="cv-chips">
-              <span>Python</span><span>Django</span><span>SQL</span><span>Git</span><span>PyCharm</span>
+
+            <div class="skill-card">
+                <i class="devicon-github-original"></i>
+                <h4>GitHub</h4>
             </div>
-            <div class="cv-label mt">Contacto</div>
-            <div class="cv-line" style="width:60%"></div>
-          </div>
+
         </div>
-      </div>
-      <div class="cv-text reveal">
-        <h3>Descarga mi hoja de vida</h3>
-        <p>Documento PDF con mi formación académica, proyectos desarrollados con Python y Django, stack técnico completo y datos de contacto.</p>
-        <ul class="cv-list">
-          <li><i class="fas fa-check"></i> Formación ADSO — SENA</li>
-          <li><i class="fas fa-check"></i> Proyectos con Python & Django</li>
-          <li><i class="fas fa-check"></i> Stack técnico detallado</li>
-          <li><i class="fas fa-check"></i> Disponible para prácticas inmediatamente</li>
-        </ul>
-        <a href="HojaDeVida_David_Imbachi Campo.docx" download class="btn-download">
-          <i class="fas fa-file-arrow-down"></i>
-          Descargar CV — PDF
-        </a>
-        <p class="cv-note">Actualizado · Enero 2026</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- CONTACT -->
-<section id="contact" class="section bg-cream">
-  <div class="container">
-    <div class="sec-header reveal">
-      <span class="sec-num">06</span>
-      <h2 class="sec-title">Contacto</h2>
-    </div>
-    <div class="contact-grid">
-      <div class="contact-info reveal">
-        <h3>¿Tienes una oportunidad?</h3>
-        <p>Estoy buscando activamente prácticas o mi primera experiencia como Python Developer. Respondo en menos de 24 horas.</p>
-        <div class="c-links">
-          <a href="mailto:david@email.com" class="c-link">
-            <i class="fa-solid fa-envelope"></i>
-            <span>davidimbachi132@gmail.com</span>
-          </a>
-          <a href="#" class="c-link">
-            <i class="fab fa-whatsapp"></i>
-            <span>+57 3135283079</span>
-          </a>
-          <a href="#" class="c-link">
-<i class="fas fa-mobile-alt"></i>   <!-- celular -->
-            <span>+57 3018384126</span>
-          </a>
-          <a href="https://github.com/davidimbachi" target="_blank" class="c-link">
-            <i class="fab fa-github"></i>
-            <span>github.com/davidimbachi</span>
-          </a>
+    </section>
+        <!-- EXPERIENCE -->
+    <section class="experience section" id="experience">
+        <div class="section-title">
+            <h2>Experiencia Laboral</h2>
+            <span></span>
         </div>
-      </div>
-  
-    </div>
-  </div>
-</section>
 
-<footer>
-  <div class="footer-inner">
-    <span class="footer-name">David Imbachi</span>
-    <span class="footer-sub">Python Developer · © 2026</span>
-    <a href="https://github.com/davidimbachi" target="_blank" class="footer-gh"><i class="fab fa-github"></i></a>
-  </div>
-</footer>
+        <div class="timeline">
 
-<script src="script.js"></script>
+            <div class="timeline-item">
+                <h3>Jumbo Cencosud</h3>
+                <span>Ventas / Atención al Cliente</span>
+                <p>Atención al cliente, ventas y apoyo comercial.</p>
+            </div>
+
+            <div class="timeline-item">
+                <h3>Olímpica</h3>
+                <span>Caja / Servicio al cliente</span>
+                <p>Manejo de caja, pagos y servicio al cliente.</p>
+            </div>
+
+            <div class="timeline-item">
+                <h3>Arturo Calle</h3>
+                <span>Asesor comercial</span>
+                <p>Ventas y asesoría personalizada a clientes.</p>
+            </div>
+
+            <div class="timeline-item">
+                <h3>Electrocréditos</h3>
+                <span>Ventas</span>
+                <p>Comercialización de productos y atención postventa.</p>
+            </div>
+
+            <div class="timeline-item">
+                <h3>Terraza Payanesa</h3>
+                <span>Servicio al cliente</span>
+                <p>Atención integral y soporte operativo.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects section" id="projects">
+        <div class="section-title">
+            <h2>Proyectos</h2>
+            <span></span>
+        </div>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <h3>Sistema de Restaurante</h3>
+                <p>
+                    Sistema en PHP y MySQL con roles de administrador, chef,
+                    cajero y cliente.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h3>Agropecuario.NET</h3>
+                <p>
+                    Plataforma desarrollada con Django para gestión agropecuaria.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h3>Cursos Complementarios</h3>
+                <p>
+                    Sistema de gestión académica con Python y MySQL.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section class="certifications section" id="certifications">
+        <div class="section-title">
+            <h2>Certificaciones</h2>
+            <span></span>
+        </div>
+
+        <div class="cert-grid">
+            <div class="cert-card">ADSO - SENA</div>
+            <div class="cert-card">Python</div>
+            <div class="cert-card">PHP & MySQL</div>
+            <div class="cert-card">Bootstrap 5</div>
+            <div class="cert-card">Git & GitHub</div>
+            <div class="cert-card">SQL</div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact section" id="contact">
+        <div class="section-title">
+            <h2>Contacto</h2>
+            <span></span>
+        </div>
+
+        <div class="contact-grid">
+
+            <div class="contact-card">
+                <i class="fas fa-envelope"></i>
+                <h3>Email</h3>
+                <p>fernandomontilla8@gmail.com</p>
+            </div>
+
+            <div class="contact-card">
+                <i class="fas fa-phone"></i>
+                <h3>Teléfono</h3>
+                <p>3216975589</p>
+            </div>
+
+            <div class="contact-card">
+                <i class="fab fa-github"></i>
+                <h3>GitHub</h3>
+                <p>JuanMon1234</p>
+            </div>
+
+            <div class="contact-card">
+                <i class="fab fa-linkedin"></i>
+                <h3>LinkedIn</h3>
+                <p>Juan Montilla</p>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Juan Fernando Montilla - Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
