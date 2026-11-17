@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juan Fernando Montilla | Portfolio</title>
+    <meta name="description" content="Portafolio de Juan Fernando Montilla: Tecnólogo en Análisis y Desarrollo de Software, desarrollo web y analítica de datos con Power BI.">
+    <title>Juan Fernando Montilla | Portafolio</title>
 
     <!-- CSS -->
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="extra-styles.css">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -15,9 +17,9 @@
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
 
-    <!-- Devicon -->
+    <!-- Devicon (versión fija para que los íconos no cambien solos) -->
     <link rel="stylesheet"
-          href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+          href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css">
 </head>
 <body>
 
@@ -31,9 +33,9 @@
             <a href="#inicio">Inicio</a>
             <a href="#about">Sobre mí</a>
             <a href="#skills">Skills</a>
-            <a href="#experience">Experiencia</a>
             <a href="#projects">Proyectos</a>
-            <a href="#certifications">Certificaciones</a>
+            <a href="#experience">Experiencia</a>
+            <a href="#certifications">Formación</a>
             <a href="#contact">Contacto</a>
         </nav>
 
@@ -52,22 +54,27 @@
             </h1>
 
             <h2>
-                Backend Developer | ADSO
+                Desarrollo de software y analítica de datos
             </h2>
 
             <p class="hero-description">
-                Tecnólogo en Análisis y Desarrollo de Software con experiencia en
-                desarrollo web backend usando PHP, Python, MySQL, Bootstrap y Git.
-                Apasionado por crear soluciones eficientes y escalables.
+                Tecnólogo en Análisis y Desarrollo de Software (SENA) y estudiante de
+                Contaduría Pública. Desarrollo aplicaciones web con PHP, Python y Django,
+                trabajo con bases de datos MySQL y convierto datos en informes
+                claros con Power BI. Busco mi etapa práctica en desarrollo de
+                software o analítica de datos, con disponibilidad inmediata.
             </p>
 
             <div class="hero-buttons">
-                <a href="HojaDeVida_JuanFernandoMontilla_2026.docx" class="btn-primary">
+                <a href="HojaDeVida_JuanFernandoMontilla_2026.pdf"
+                   download
+                   class="btn-primary">
                     Descargar CV
                 </a>
 
                 <a href="https://github.com/JuanMon1234"
                    target="_blank"
+                   rel="noopener"
                    class="btn-secondary">
                     <i class="fab fa-github"></i>
                     GitHub
@@ -75,15 +82,12 @@
 
                 <a href="https://www.linkedin.com/in/juan-montilla-45aa5a193/"
                    target="_blank"
+                   rel="noopener"
                    class="btn-linkedin">
                     <i class="fab fa-linkedin"></i>
                     LinkedIn
                 </a>
             </div>
-        </div>
-
-        <div class="hero-image">
-            <img src="img/profile.png" alt="Juan Montilla">
         </div>
     </section>
 
@@ -97,31 +101,32 @@
         <div class="about-content">
             <p>
                 Soy Tecnólogo en Análisis y Desarrollo de Software (ADSO) y estudiante
-                de Contaduría Pública. Cuento con más de 8 años de experiencia en
-                atención al cliente, ventas, retail y caja, combinando habilidades
-                técnicas con excelentes competencias interpersonales.
+                de Contaduría Pública. Tengo más de 7 años de experiencia en atención
+                al cliente, ventas, caja y retail, y hoy combino esa orientación al detalle
+                y al usuario con mi formación técnica.
             </p>
 
             <p>
-                Me especializo en desarrollo backend con PHP y Python, diseño de
-                bases de datos MySQL, interfaces responsivas con Bootstrap y
-                control de versiones con Git/GitHub.
+                Me interesa especialmente el análisis de datos: construir informes
+                en Power BI y Excel que se entiendan a la primera. En desarrollo trabajo
+                con PHP, Python y Django, bases de datos MySQL, Docker y control
+                de versiones con Git y GitHub.
             </p>
 
             <div class="about-cards">
                 <div class="about-card">
-                    <h3>8+</h3>
+                    <h3>7+</h3>
                     <p>Años de experiencia laboral</p>
                 </div>
 
                 <div class="about-card">
-                    <h3>10+</h3>
-                    <p>Tecnologías aprendidas</p>
+                    <h3>4</h3>
+                    <p>Proyectos destacados</p>
                 </div>
 
                 <div class="about-card">
-                    <h3>3+</h3>
-                    <p>Proyectos principales</p>
+                    <h3>2</h3>
+                    <p>Tecnologías SENA y Contaduría en curso</p>
                 </div>
             </div>
         </div>
@@ -152,6 +157,11 @@
             </div>
 
             <div class="skill-card">
+                <i class="devicon-react-original colored"></i>
+                <h4>React</h4>
+            </div>
+
+            <div class="skill-card">
                 <i class="devicon-bootstrap-plain colored"></i>
                 <h4>Bootstrap</h4>
             </div>
@@ -177,6 +187,11 @@
             </div>
 
             <div class="skill-card">
+                <i class="devicon-docker-plain colored"></i>
+                <h4>Docker</h4>
+            </div>
+
+            <div class="skill-card">
                 <i class="devicon-git-plain colored"></i>
                 <h4>Git</h4>
             </div>
@@ -186,45 +201,14 @@
                 <h4>GitHub</h4>
             </div>
 
-        </div>
-    </section>
-        <!-- EXPERIENCE -->
-    <section class="experience section" id="experience">
-        <div class="section-title">
-            <h2>Experiencia Laboral</h2>
-            <span></span>
-        </div>
-
-        <div class="timeline">
-
-            <div class="timeline-item">
-                <h3>Jumbo Cencosud</h3>
-                <span>Ventas / Atención al Cliente</span>
-                <p>Atención al cliente, ventas y apoyo comercial.</p>
+            <div class="skill-card">
+                <i class="fa-solid fa-chart-column"></i>
+                <h4>Power BI</h4>
             </div>
 
-            <div class="timeline-item">
-                <h3>Olímpica</h3>
-                <span>Caja / Servicio al cliente</span>
-                <p>Manejo de caja, pagos y servicio al cliente.</p>
-            </div>
-
-            <div class="timeline-item">
-                <h3>Arturo Calle</h3>
-                <span>Asesor comercial</span>
-                <p>Ventas y asesoría personalizada a clientes.</p>
-            </div>
-
-            <div class="timeline-item">
-                <h3>Electrocréditos</h3>
-                <span>Ventas</span>
-                <p>Comercialización de productos y atención postventa.</p>
-            </div>
-
-            <div class="timeline-item">
-                <h3>Terraza Payanesa</h3>
-                <span>Servicio al cliente</span>
-                <p>Atención integral y soporte operativo.</p>
+            <div class="skill-card">
+                <i class="fa-solid fa-file-excel"></i>
+                <h4>Excel</h4>
             </div>
 
         </div>
@@ -240,44 +224,183 @@
         <div class="projects-grid">
 
             <div class="project-card">
-                <h3>Sistema de Restaurante</h3>
+                <h3>Informe de Power BI: Porkis Salsamentaria</h3>
                 <p>
-                    Sistema en PHP y MySQL con roles de administrador, chef,
-                    cajero y cliente.
+                    Informe interactivo con paneles de portafolio y marcas y de
+                    control tributario, pensado para presentar la información
+                    de forma clara a quien toma decisiones.
                 </p>
+                <div class="tags">
+                    <span class="tag">Power BI</span>
+                    <span class="tag">Excel</span>
+                </div>
             </div>
 
             <div class="project-card">
-                <h3>Agropecuario.NET</h3>
+                <h3>Sistema de Restaurante (en desarrollo)</h3>
                 <p>
-                    Plataforma desarrollada con Django para gestión agropecuaria.
+                    Aplicación web con roles de administrador, chef, cajero y
+                    cliente. Tiene implementados los módulos de ingresos y
+                    parte del menú.
                 </p>
+                <div class="tags">
+                    <span class="tag">PHP</span>
+                    <span class="tag">MySQL</span>
+                    <span class="tag">AdminLTE</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/JuanMon1234/proyectoRestauranteWimer"
+                       target="_blank" rel="noopener">
+                        <i class="fab fa-github"></i> Ver código
+                    </a>
+                </div>
             </div>
 
             <div class="project-card">
-                <h3>Cursos Complementarios</h3>
+                <h3>Agropecuario (SENA)</h3>
                 <p>
-                    Sistema de gestión académica con Python y MySQL.
+                    Plataforma web multi-rol (administrador, coordinador,
+                    dinamizador, instructor y aprendiz) con auditoría y
+                    recuperación de contraseña por correo. Proyecto en equipo.
                 </p>
+                <p class="project-role">
+                    <strong>Mi aporte:</strong> panel del instructor y vistas del aprendiz.
+                </p>
+                <div class="tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">Django</span>
+                    <span class="tag">Docker</span>
+                    <span class="tag">Nginx</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://drive.google.com/file/d/1L1RQrncLYW5_hXpf5ARDLswGLtondmpa/view"
+                       target="_blank" rel="noopener">
+                        <i class="fa-solid fa-play"></i> Demo: inicio de sesión
+                    </a>
+                    <a href="https://drive.google.com/file/d/19ApEH2VZY-GHHLW_vEibXODyY1FLO7y_/view"
+                       target="_blank" rel="noopener">
+                        <i class="fa-solid fa-play"></i> Demo: manejo
+                    </a>
+                </div>
+                <p class="project-note">El código es privado; puedo mostrarlo en una entrevista.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Cursos Complementarios (SENA)</h3>
+                <p>
+                    Plataforma web para gestionar ofertas, solicitudes e
+                    inscripciones de cursos complementarios. Proyecto en equipo.
+                </p>
+                <p class="project-role">
+                    <strong>Mi aporte:</strong> inicio de sesión y módulo del instructor.
+                </p>
+                <div class="tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">Django</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/FjoseMejia/cursos_complementarios"
+                       target="_blank" rel="noopener">
+                        <i class="fab fa-github"></i> Ver código
+                    </a>
+                </div>
             </div>
 
         </div>
     </section>
 
-    <!-- CERTIFICATIONS -->
+    <!-- EXPERIENCE -->
+    <section class="experience section" id="experience">
+        <div class="section-title">
+            <h2>Experiencia Laboral</h2>
+            <span></span>
+        </div>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+                <h3>MTC SAS</h3>
+                <span>Auxiliar contable y administrativo (independiente)</span>
+                <p class="date">Octubre 2026 - presente</p>
+                <p>Registro de facturas y gastos, archivo de soportes, contratos laborales a partir de plantillas, nómina y afiliaciones a seguridad social (PILA).</p>
+            </div>
+
+            <div class="timeline-item">
+                <h3>Messengers</h3>
+                <span>Domiciliario</span>
+                <p class="date">2023 - presente</p>
+                <p>Entrega de pedidos con puntualidad, manejo de efectivo, planeación de rutas y coordinación en tiempo real.</p>
+            </div>
+
+            <div class="timeline-item">
+                <h3>Arkadia Family Center (vía Gente Útil)</h3>
+                <span>Auxiliar operario de temporada</span>
+                <p class="date">Dic 2022 - Ene 2023</p>
+                <p>Atención a clientes, supervisión de máquinas recreativas, devoluciones y cuadre de ingresos diarios.</p>
+            </div>
+
+            <div class="timeline-item">
+                <h3>Olímpica (Incopac S.A.)</h3>
+                <span>Auxiliar de ventas - Cajas</span>
+                <p class="date">Abr 2021 - Oct 2022</p>
+                <p>Registro de pagos en distintos medios, cuadre de caja al cierre, atención al cliente y manejo de reclamaciones.</p>
+            </div>
+
+            <div class="timeline-item">
+                <h3>Arturo Calle</h3>
+                <span>Auxiliar de temporada</span>
+                <p class="date">Dic 2020</p>
+                <p>Asesoría a clientes y mantenimiento de tienda: exhibición, surtido y organización.</p>
+            </div>
+
+            <div class="timeline-item">
+                <h3>Electrocréditos del Cauca</h3>
+                <span>Asesor comercial externo</span>
+                <p class="date">Nov 2019 - Sep 2020</p>
+                <p>Venta a crédito, diligenciamiento de formatos de cliente y codeudor, facturación y servicio postventa.</p>
+            </div>
+
+            <div class="timeline-item">
+                <h3>Jumbo, Cencosud Colombia</h3>
+                <span>Auxiliar de cajas y de electrodomésticos</span>
+                <p class="date">Dic 2016 - Sep 2019</p>
+                <p>Cajero con cuadre y cierre de caja, y asesoría en electrodomésticos, garantías e instalaciones.</p>
+            </div>
+
+            <div class="timeline-item">
+                <h3>Restaurante Terraza Payanesa</h3>
+                <span>Mesero</span>
+                <p class="date">Jun 2014 - Nov 2016</p>
+                <p>Atención al cliente, toma de pedidos, servicio de alimentos y bebidas.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FORMACIÓN -->
     <section class="certifications section" id="certifications">
         <div class="section-title">
-            <h2>Certificaciones</h2>
+            <h2>Formación</h2>
             <span></span>
         </div>
 
         <div class="cert-grid">
-            <div class="cert-card">ADSO - SENA</div>
-            <div class="cert-card">Python</div>
-            <div class="cert-card">PHP & MySQL</div>
-            <div class="cert-card">Bootstrap 5</div>
-            <div class="cert-card">Git & GitHub</div>
-            <div class="cert-card">SQL</div>
+            <div class="cert-card">
+                <strong>Tecnólogo en Análisis y Desarrollo de Software</strong><br>
+                SENA · etapa lectiva finalizada el 01/06/2026
+            </div>
+            <div class="cert-card">
+                <strong>Contaduría Pública</strong><br>
+                Unicomfacauca · 6.º semestre
+            </div>
+            <div class="cert-card">
+                <strong>Tecnólogo en Negociación Internacional</strong><br>
+                SENA · 2017
+            </div>
+            <div class="cert-card">
+                <strong>Inglés básico</strong><br>
+                SENA · 2016
+            </div>
         </div>
     </section>
 
@@ -292,33 +415,33 @@
 
             <div class="contact-card">
                 <i class="fas fa-envelope"></i>
-                <h3>Email</h3>
-                <p>fernandomontilla8@gmail.com</p>
-            </div>
-
-            <div class="contact-card">
-                <i class="fas fa-phone"></i>
-                <h3>Teléfono</h3>
-                <p>3216975589</p>
-            </div>
-
-            <div class="contact-card">
-                <i class="fab fa-github"></i>
-                <h3>GitHub</h3>
-                <p>JuanMon1234</p>
+                <h3>Correo</h3>
+                <p><a href="mailto:fernandomontilla8@gmail.com">fernandomontilla8@gmail.com</a></p>
             </div>
 
             <div class="contact-card">
                 <i class="fab fa-linkedin"></i>
                 <h3>LinkedIn</h3>
-                <p>Juan Montilla</p>
+                <p><a href="https://www.linkedin.com/in/juan-montilla-45aa5a193/" target="_blank" rel="noopener">Juan Montilla</a></p>
+            </div>
+
+            <div class="contact-card">
+                <i class="fab fa-github"></i>
+                <h3>GitHub</h3>
+                <p><a href="https://github.com/JuanMon1234" target="_blank" rel="noopener">JuanMon1234</a></p>
+            </div>
+
+            <div class="contact-card">
+                <i class="fas fa-location-dot"></i>
+                <h3>Ubicación</h3>
+                <p>Popayán, Cauca · disponible para trabajo remoto</p>
             </div>
 
         </div>
     </section>
 
     <footer>
-        <p>© 2026 Juan Fernando Montilla - Portfolio</p>
+        <p>© 2026 Juan Fernando Montilla</p>
     </footer>
 
     <script src="script.js"></script>
